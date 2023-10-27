@@ -1,6 +1,6 @@
 ## Live Deployment
 
-The application is deployed live at: [Live URL](https://clinquant-nougat-f52198.netlify.app/api-docs)
+The application is deployed live at: [Live URL](https://clinquant-nougat-f52198.netlify.app)
 
 ## API Endpoint
 

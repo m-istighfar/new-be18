@@ -6,7 +6,7 @@ This is a simple e-learning platform consisting of a backend API built with Node
 
 ## Live Deployment
 
-- [Firebase Web App](https://week-17-tifar.web.app/)
+- [Firebase Web App](https://week-17-tifar.web.app/)s
 
 
 ## Table of Contents

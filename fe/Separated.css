@@ -1,0 +1,57 @@
+/* Sider */
+
+.ant-layout-sider {
+  z-index: 1000;
+}
+
+.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  display: none;
+}
+
+/* ToggleButton */
+
+@media (max-width: 1023px) {
+  .blur-content {
+    filter: blur(4px);
+    transition: filter 0.3s ease;
+  }
+
+  .menu-toggle-button {
+    display: block;
+  }
+}
+
+.menu-toggle-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: darkblue;
+  cursor: pointer;
+  display: none;
+  z-index: 1010;
+}
+
+/* LogoutButton */
+
+.logout-button {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+/* userProfile */
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.user-profile span {
+  margin-left: 10px;
+  color: white;
+  font-size: 24px;
+}

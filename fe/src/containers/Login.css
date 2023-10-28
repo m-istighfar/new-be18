@@ -1,0 +1,97 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f0f2f5, #e6e9ec);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  max-width: 300px;
+}
+
+.login-form-button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #40a9ff !important;
+}
+
+.login-form-button:hover {
+  background-color: #238bf2 !important;
+}
+
+.login-extra-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-form-forgot {
+  float: left;
+  color: #40a9ff;
+}
+
+.login-extra-links a {
+  color: #40a9ff;
+  transition: color 0.3s;
+}
+
+.login-extra-links a:hover {
+  color: #238bf2;
+}
+
+/* Responsive breakpoints */
+
+/* Mobile: Between 320px and 425px */
+@media (min-width: 320px) and (max-width: 425px) {
+  .login-card {
+    width: 90%;
+  }
+}
+
+/* Tablet: Between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login-card {
+    width: 70%;
+  }
+}
+
+/* Large screens: Between 1024px and 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .login-card {
+    width: 50%;
+  }
+}
+
+/* Larger screens: Above 1440px */
+@media (min-width: 1440px) {
+  .login-card {
+    width: 40%;
+  }
+}
+
+/* Additional enhancements */
+.ant-input:focus,
+.ant-input-password:focus {
+  border-color: #40a9ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}

@@ -1,0 +1,38 @@
+.verify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.verify-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.verify-card h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.verify-card p {
+  margin-bottom: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.verify-footer {
+  text-align: center;
+}
+
+.verify-footer a {
+  color: #1890ff;
+}
+
+.back-to-login-button {
+  width: 100%;
+  margin-top: 16px;
+}

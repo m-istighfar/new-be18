@@ -1,0 +1,138 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 15px;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.register-logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.register-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.register-form-button {
+  width: 100%;
+}
+
+.register-extra-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Input focus styles */
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Button loading animation */
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-btn-loading .anticon {
+  animation: rotate 1s infinite linear;
+}
+
+.register-form-button {
+  background-color: #40a9ff !important;
+}
+
+.register-form-button:hover {
+  background-color: #238bf2 !important;
+}
+
+/* Adaptive layout for small screens */
+@media (max-width: 1440px) {
+  /* Adjustments for larger desktops */
+  .register-card {
+    max-width: 500px;
+  }
+  .register-form {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Adjustments for tablets in landscape and smaller desktops */
+  .register-card {
+    max-width: 450px;
+  }
+  .register-form {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for tablets in portrait */
+  .register-card {
+    max-width: 400px;
+  }
+  .register-form {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Adjustments for larger phones */
+  .register-logo h1 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .register-card {
+    margin: 5px;
+  }
+  .register-form-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Adjustments for medium phones */
+  .register-logo h1 {
+    font-size: 18px;
+  }
+  .register-form-button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Adjustments for smaller phones */
+  .register-logo h1 {
+    font-size: 16px;
+  }
+  .register-form {
+    padding: 0 5px;
+  }
+  .register-form-button {
+    font-size: 12px;
+  }
+  .register-extra-links {
+    font-size: 12px;
+  }
+}
